@@ -1,0 +1,151 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav{
+    background-color: #002afa;
+    margin-bottom: 1em;
+    padding: 1em;
+    
+}
+
+.navbar-nav .logo img{
+ width: 6em;
+ height: 6em;
+}
+
+
+.navbar-nav nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 3%;
+    align-items: center;
+}
+
+.logo h1{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+
+.sidenav ul{
+    list-style: none;
+    display: flex;
+    list-style-type: none;
+}
+
+.sidenav li{
+    width: 12em;
+    height: 2em;
+    font-size: 13px;
+    color: #45a049;
+    border-left: 0.08em solid;
+    position: relative;
+    margin-top: 0,8em;
+    border-radius: 30px 30px;
+}
+
+.sidenav li a{
+    text-decoration: none;
+    height: 98%;
+    width: 80%;
+    display: flex;
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    list-style-type: none;
+
+}
+
+.secvisimisi{
+    background-color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
+}
+
+.p{
+    color: black;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.styled-table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.styled-table th {
+    background-color: #f2f2f2;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.secti{
+    text-align: center;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in.active {
+    opacity: 1;
+    transform: translateY(0);
+}
